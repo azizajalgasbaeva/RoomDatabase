@@ -58,7 +58,10 @@ class MainActivity : AppCompatActivity() {
                     )
                     addDataToDB(user)
                     Log.d("magliwmat", view.etName.text.toString())
+                    Log.d("magliwmat", view.etName.text.toString())
+                    Log.d("magliwmat", view.etName.text.toString())
                 }
+
                 .setNegativeButton("Cancel") { dialog, which ->
                     dialog.dismiss()
                 }
